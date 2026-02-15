@@ -87,9 +87,13 @@
             var date = isEn ? t.date_en : t.date;
             var tag = isEn ? t.tag_en : t.tag_zh;
 
+            var coverHtml = (t.cover && t.cover.indexOf('placeholder') === -1)
+                ? '<img src="' + t.cover + '" alt="' + t.title_zh + '">'
+                : '<span class="placeholder-icon">&#9997;</span>';
+
             return '<a href="tutorial.html?id=' + t.id + '" class="tutorial-card reveal reveal-delay-' + (tutorials.indexOf(t) % 5) + '">' +
                 '<div class="tutorial-card-cover">' +
-                    '<span class="placeholder-icon">&#9997;</span>' +
+                    coverHtml +
                 '</div>' +
                 '<div class="tutorial-card-body">' +
                     '<h3 data-zh="' + t.title_zh + '" data-en="' + t.title_en + '">' + title + '</h3>' +

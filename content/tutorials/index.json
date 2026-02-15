@@ -1,35 +1,35 @@
 [
     {
-        "id": "2-sentences-skill",
-        "title_zh": "2 句话让 Claude 学会新技能",
-        "title_en": "Teach Claude a New Skill in 2 Sentences",
-        "date": "2026-02-12",
-        "date_en": "Feb 12, 2026",
+        "id": "claude-skills-creation",
+        "title_zh": "Claude Skills 教程，2 句话快速创建",
+        "title_en": "Claude Skills Tutorial: Create One in 2 Sentences",
+        "date": "2026-02-07",
+        "date_en": "Feb 7, 2026",
+        "tag_zh": "Skills",
+        "tag_en": "Skills",
+        "cover": "images/tutorials/20260207封面.png",
+        "md": "content/tutorials/claude-skills-creation.md"
+    },
+    {
+        "id": "notebooklm-english-speaking",
+        "title_zh": "如何用 NotebookLM 练英语口语",
+        "title_en": "Practice English Speaking with NotebookLM",
+        "date": "2026-02-01",
+        "date_en": "Feb 1, 2026",
         "tag_zh": "Prompt 技巧",
         "tag_en": "Prompt Tips",
-        "cover": "images/tutorials/placeholder.svg",
-        "md": "content/tutorials/2-sentences-skill.md"
+        "cover": "images/tutorials/20260201封面.jpg",
+        "md": "content/tutorials/notebooklm-english-speaking.md"
     },
     {
-        "id": "claude-code-setup",
-        "title_zh": "零基础安装 Claude Code 完整教程",
-        "title_en": "Complete Guide to Installing Claude Code from Scratch",
-        "date": "2026-02-08",
-        "date_en": "Feb 8, 2026",
-        "tag_zh": "VibeCoding",
-        "tag_en": "VibeCoding",
-        "cover": "images/tutorials/placeholder.svg",
-        "md": "content/tutorials/claude-code-setup.md"
-    },
-    {
-        "id": "ai-workflow-automation",
-        "title_zh": "5 个让工作效率翻倍的 AI 自动化工作流",
-        "title_en": "5 AI Automation Workflows to Double Your Productivity",
-        "date": "2026-02-03",
-        "date_en": "Feb 3, 2026",
-        "tag_zh": "效率提升",
-        "tag_en": "Productivity",
-        "cover": "images/tutorials/placeholder.svg",
-        "md": "content/tutorials/ai-workflow-automation.md"
+        "id": "stock-learning-assistant",
+        "title_zh": "我让 Claude 帮我建了个私人美股学习助手",
+        "title_en": "I Built a Personal US Stock Learning Assistant with Claude",
+        "date": "2026-01-30",
+        "date_en": "Jan 30, 2026",
+        "tag_zh": "AI+投资",
+        "tag_en": "AI+Investing",
+        "cover": "images/tutorials/20260130封面.JPG",
+        "md": "content/tutorials/stock-learning-assistant.md"
     }
 ]
