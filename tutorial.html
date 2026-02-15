@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教程 · 斯乌苏</title>
+    <meta name="description" content="教程详情">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Code highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand" data-zh="斯乌苏" data-en="Siwusu">斯乌苏</a>
+            <button class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle menu">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="index.html" data-zh="首页" data-en="Home">首页</a></li>
+                <li><a href="tutorials.html" data-zh="教程" data-en="Tutorials">教程</a></li>
+                <li><a href="resources.html" data-zh="其他资源" data-en="More Resources">其他资源</a></li>
+                <li><a href="about.html" data-zh="关于我" data-en="About">关于我</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="nav-lang" onclick="toggleLang()">EN / 中</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tutorial Detail -->
+    <article class="tutorial-detail">
+        <div class="container">
+            <!-- Header: rendered by JS -->
+            <div class="tutorial-detail-header" id="tutorial-header"></div>
+
+            <!-- Markdown content: rendered by JS -->
+            <div class="markdown-body" id="tutorial-content">
+                <div class="loading-state">
+                    <p data-zh="加载中..." data-en="Loading...">加载中...</p>
+                </div>
+            </div>
+
+            <!-- Prev / Next navigation -->
+            <div class="tutorial-nav" id="tutorial-nav"></div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-brand-name" data-zh="斯乌苏" data-en="Siwusu">斯乌苏</div>
+                <p data-zh="用 AI 探索无限创作可能。分享前沿工具、实战教程与创作灵感。" data-en="Explore infinite creative possibilities with AI. Sharing cutting-edge tools, hands-on tutorials & creative inspiration.">用 AI 探索无限创作可能。分享前沿工具、实战教程与创作灵感。</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-zh="快速导航" data-en="Quick Links">快速导航</h4>
+                <ul>
+                    <li><a href="index.html" data-zh="首页" data-en="Home">首页</a></li>
+                    <li><a href="tutorials.html" data-zh="教程" data-en="Tutorials">教程</a></li>
+                    <li><a href="resources.html" data-zh="其他资源" data-en="More Resources">其他资源</a></li>
+                    <li><a href="about.html" data-zh="关于我" data-en="About">关于我</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-zh="关注我" data-en="Follow Me">关注我</h4>
+                <ul>
+                    <li><a href="https://xhslink.com/m/5Dnr7mWJ74i" target="_blank" rel="noopener" data-zh="小红书：斯乌苏（AI版）" data-en="Xiaohongshu: 斯乌苏 (AI版)">小红书：斯乌苏（AI版）</a></li>
+                    <li><a href="#" data-zh="GitHub" data-en="GitHub">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 斯乌苏 · All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/tutorial-detail.js"></script>
+
+</body>
+</html>

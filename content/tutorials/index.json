@@ -1,0 +1,35 @@
+[
+    {
+        "id": "2-sentences-skill",
+        "title_zh": "2 句话让 Claude 学会新技能",
+        "title_en": "Teach Claude a New Skill in 2 Sentences",
+        "date": "2026-02-12",
+        "date_en": "Feb 12, 2026",
+        "tag_zh": "Prompt 技巧",
+        "tag_en": "Prompt Tips",
+        "cover": "images/tutorials/placeholder.svg",
+        "md": "content/tutorials/2-sentences-skill.md"
+    },
+    {
+        "id": "claude-code-setup",
+        "title_zh": "零基础安装 Claude Code 完整教程",
+        "title_en": "Complete Guide to Installing Claude Code from Scratch",
+        "date": "2026-02-08",
+        "date_en": "Feb 8, 2026",
+        "tag_zh": "VibeCoding",
+        "tag_en": "VibeCoding",
+        "cover": "images/tutorials/placeholder.svg",
+        "md": "content/tutorials/claude-code-setup.md"
+    },
+    {
+        "id": "ai-workflow-automation",
+        "title_zh": "5 个让工作效率翻倍的 AI 自动化工作流",
+        "title_en": "5 AI Automation Workflows to Double Your Productivity",
+        "date": "2026-02-03",
+        "date_en": "Feb 3, 2026",
+        "tag_zh": "效率提升",
+        "tag_en": "Productivity",
+        "cover": "images/tutorials/placeholder.svg",
+        "md": "content/tutorials/ai-workflow-automation.md"
+    }
+]
